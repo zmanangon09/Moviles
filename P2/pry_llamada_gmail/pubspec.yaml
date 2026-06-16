@@ -1,0 +1,32 @@
+name: pry_llamada_gmail
+description: "Aplicacion movil con BottomNavigationBar, llamadas telefonicas y correo electronico."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # iconos cupertino para ios
+  cupertino_icons: ^1.0.8
+
+  # permite lanzar urls: llamadas (tel:), correo (mailto:) y otras
+  url_launcher: ^6.3.1
+
+  # proporciona fuentes de google fonts, se usa Lora
+  google_fonts: ^6.2.1
+  flutter_phone_direct_caller: ^2.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # reglas de linting recomendadas
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
